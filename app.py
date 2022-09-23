@@ -10,7 +10,12 @@ def index():
 
 @app.route("/scrape")
 def scrape():
-    return "You reached the scrape"
+    #return "You reached the scrape"
+    # test to call scrape mars script
+    mars_data = scrape_mars.scrape_all()
+    #print(mars_data) # print the dictionary that is returned from the scrape all script
+    return mars_data
+
 
 if __name__ == "__main__":
     app.run()
