@@ -138,5 +138,5 @@ def scrape_hemispheres(browser):
     return hemisphere_image_urls
 
 # set up as a flask app
-if __name == "__main__":
+if __name__ == "__main__":
     print(scrape_all())
