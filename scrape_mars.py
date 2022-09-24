@@ -140,3 +140,5 @@ def scrape_hemispheres(browser):
 # set up as a flask app
 if __name__ == "__main__":
     print(scrape_all())
+
+# http://127.0.0.1:5000/
